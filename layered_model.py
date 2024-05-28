@@ -1,7 +1,7 @@
-import tensorflow as tf
+from tensorflow.keras.datasets import mnist
 from tensorflow import keras
 from tensorflow.keras import layers
-from tensorflow.keras.datasets import mnist
+import tensorflow as tf
 
 
 def define_dense_model_single_layer(input_length, activation_f='sigmoid', output_length=1):
